@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biodata | Chrisna Adhi Pranoto</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            text-align: center;
+            font-family: 'Ubuntu', sans-serif;
+        }
+
+        .container {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            min-height: 100vh;
+            flex-direction: column;
+        }
+
+        /* Upper Content */
+
+        .upper {
+            height: 6em;
+            background-color: #ff3e00;
+            display: flex;
+            align-items: center;
+        }
+
+        .upper-title {
+            margin: 0 auto;
+            color: white;
+            font-size: 35px;
+            font-weight: 700;
+        }
+
+        /* Main Content */
+
+        .content {
+            display: flex;
+            flex-direction: column;
+        }
+
+        figure {
+            margin: 10px;
+            color: #ff3e00;
+        }
+
+        figure > img {
+            height: 150px;
+            border-radius: 50%;
+            margin: 10px 0;
+        }
+
+        figure > img:hover {
+            transform: scale(1.1);
+        }
+
+        figcaption {
+            font-size: 12px;
+        }
+
+        .biodata {
+            margin: 0 auto;
+            border: 1px solid #ff3e00;
+            border-radius: 8px;
+            color: #ff3e00;
+            box-shadow: 2px 3px #ff3e00;
+        }
+        
+        .biodata:hover {
+            background-color: #ff3e00;
+            color: white;
+            box-shadow: 2px 3px #505050;
+        }
+
+        .biodata > table, th, td {
+           padding: 5px;
+        }
+
+        td {
+            text-align: left;
+            padding: 5px;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        button {
+            padding: 10px 15px;
+            margin: 5px 5px;
+            border: 1px solid #ff3e00;
+            background-color: white;
+            color: #ff3e00;
+            cursor: pointer;
+            box-shadow: 2px 3px #ff3e00;
+            text-decoration: none;
+            border-radius: 8px;
+        }
+
+        button:hover {
+            background-color: #ff3e00;
+            color: white;
+            box-shadow: 2px 3px #505050;
+        }
+
+        .lower {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: #ff3e00;
+            color: white;
+            text-align: center;
+        }
+
+        footer {
+            padding: 15px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="upper">
+            <p class="upper-title">BIODATA<br><span style="font-size: 25px; margin: 0;">Chrisna Adhi Pranoto</span></p>
+        </div>
+        <div class="content">
+            <figure>
+                <img src="/Tugas-2-HTML-CSS/ids.png" alt="">
+                <figcaption><em>Foto Chrisna Adhi Pranoto</em></figcaption>
+            </figure>
+            <div class="biodata">
+                <table>
+                    <tr>
+                        <th colspan="2"><u>Biodata</u></th>
+                    </tr>
+                    
+                    <tr>
+                        <td>Nama Lengkap</td>
+                        <td>: Chrisna Adhi Pranoto</td>
+                    </tr>
+                    <tr>
+                        <td>Tempat, Tanggal Lahir</td>
+                        <td>: Bandung, 2 Januari 1999</td>
+                    </tr>
+                    <tr>
+                        <td>Hobi</td>
+                        <td>: Membaca dan Berselancar di Internet</td>
+                    </tr>
+                    <tr>
+                        <td>Kesibukan</td>
+                        <td>: Freelance dan Magang</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="btn-group" style="margin: 10px 0;">
+                <a href="https://www.linkedin.com/in/chrisnaadhi/" target="_blank">
+                    <button>
+                    &#10024;
+                    Tentang Saya
+                    </button>
+                </a>
+                
+                
+                <a href="https://github.com/chrisnaadhi" target="_blank">
+                <button>
+                    &#128075;
+                    Berteman
+                </button>
+                </a>
+                
+            </div>
+            <div class="media">
+
+            </div>
+        </div>
+        <div class="lower">
+            <footer>
+                <p>Let's be Friend! | Chrisna 2021</p>
+            </footer>
+        </div>
+    </div>
+</body>
+</html>
